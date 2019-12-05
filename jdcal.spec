@@ -4,7 +4,7 @@
 #
 Name     : jdcal
 Version  : 1.4
-Release  : 4
+Release  : 5
 URL      : https://github.com/phn/jdcal/archive/v1.4.tar.gz
 Source0  : https://github.com/phn/jdcal/archive/v1.4.tar.gz
 Summary  : No detailed summary available
