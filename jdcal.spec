@@ -4,7 +4,7 @@
 #
 Name     : jdcal
 Version  : 1.4.1
-Release  : 13
+Release  : 14
 URL      : https://github.com/phn/jdcal/archive/v1.4.1/jdcal-1.4.1.tar.gz
 Source0  : https://github.com/phn/jdcal/archive/v1.4.1/jdcal-1.4.1.tar.gz
 Summary  : Julian dates from proleptic Gregorian and Julian calendars.
