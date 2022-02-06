@@ -4,7 +4,7 @@
 #
 Name     : jdcal
 Version  : 1.4.1
-Release  : 25
+Release  : 26
 URL      : https://github.com/phn/jdcal/archive/v1.4.1/jdcal-1.4.1.tar.gz
 Source0  : https://github.com/phn/jdcal/archive/v1.4.1/jdcal-1.4.1.tar.gz
 Summary  : Julian dates from proleptic Gregorian and Julian calendars.
@@ -14,11 +14,11 @@ Requires: jdcal-license = %{version}-%{release}
 Requires: jdcal-python = %{version}-%{release}
 Requires: jdcal-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : pluggy
-BuildRequires : py-python
-BuildRequires : pytest
-BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(py)
+BuildRequires : pypi-pluggy
+BuildRequires : pypi-pytest
+BuildRequires : pypi-tox
+BuildRequires : pypi-virtualenv
 
 %description
 jdcal
@@ -65,7 +65,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1635743838
+export SOURCE_DATE_EPOCH=1644188379
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
